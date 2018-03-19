@@ -11,6 +11,13 @@ sudo docker build -t ntop .
 sudo docker run --rm --net=host -it ntop
 ```
 
+## Verify Docker Container with Inspec
+
+```
+sudo docker run --rm --name ntop-test --net=host -itd ntop
+sudo inspec exec -t docker://ntop-test spec/*
+```
+
 ## Packet Capture
 [`PF_RING`](https://www.ntop.org/products/packet-capture/pf_ring/) is a new type of network socket that dramatically improves the packet capture speed.
 
