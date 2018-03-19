@@ -1,4 +1,4 @@
-title "Expected files to be installed after installation."
+title "Expected files to be installed after being built."
 
 files = ["apt-ntop.deb"]
 

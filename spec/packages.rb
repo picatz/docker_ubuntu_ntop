@@ -1,4 +1,4 @@
-title "Expected packages to be installed after installation."
+title "Expected packages to be installed after being built."
 
 packages = ["wget", "lsb-release", "pfring-dkms", "nprobe",
             "ntopng", "n2disk", "cento", "pfring-drivers-zc-dkms"]
